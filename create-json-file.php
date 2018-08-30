@@ -89,5 +89,4 @@ $product_array = array(
 $json_products = json_encode( $product_array ); 
 
 echo $json_products;
-
 ?>
