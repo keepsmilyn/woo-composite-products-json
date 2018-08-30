@@ -1,6 +1,6 @@
 <?php 
 
-$product_array = array(
+$composite_product_array = array(
 	array( 
 		//UNIQUE ID FOR ACCESSORY GROUP	
 		'id' => '1531372338',				//UNIQUE ID (product ID, ref id, eg: XXXX00001, XXXX000002)
@@ -86,7 +86,7 @@ $product_array = array(
 ); 
 
 
-$json_products = json_encode( $product_array ); 
+$json_composite_products = json_encode( $composite_product_array ); 
 
-echo $json_products;
+echo $json_composite_products;
 ?>
